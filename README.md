@@ -1,12 +1,9 @@
-#Deploy
+# Deploy
 1. create project
 2. npm install --save-dev gh-pages
 3. package.json => 
-   add:
-	"homepage": "https://username.github.io/repo/"
-   On Scripts:
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d dist",
+   add: "homepage": "https://username.github.io/repo/"
+   On Scripts: "predeploy": "npm run build", "deploy": "gh-pages -d dist",
 4. vite.config =>
    add: base: "/repo/",
 5. git init
