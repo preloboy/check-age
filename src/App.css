@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box-design {
+  border-radius: 1rem 1rem 10rem 1rem;
+  width: 32rem;
+  height: 22rem;
+}
+
+.input-box label {
+  color: hsl(0, 1%, 44%);
+  font-size: .8rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+}
+
+.input-box input {
+  padding: 1rem;
+}
+
+.button-img {
+  height: 3rem;
+  background: hsl(259, 100%, 65%)
+}
+ .output{
+  text-align: left;
+ }
+.output h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: hsl(0, 0%, 8%);
+  margin: 0;
+}
+
+.output .out {
+  color: hsl(259, 100%, 65%)
+}
+
+::placeholder {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 86%);
+}
